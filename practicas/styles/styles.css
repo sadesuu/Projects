@@ -1,0 +1,109 @@
+body {
+  background-color: #20b7d8;
+}
+
+.padre {
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px;
+  height: 100px;
+}
+
+.account-icon {
+  width: 400px;
+  height: 150px;
+  position: relative;
+  left: 50px;
+  bottom: 20px;
+}
+
+.fondo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1890px;
+}
+
+.cubo {
+  background-color: #20b7d8;
+  width: 1950px;
+  height: 600px;
+  opacity: 0.3;
+  position: absolute;
+  z-index: 1950px;
+}
+
+
+.container-input {
+  position: relative;
+  position: relative;
+  top: 35px;
+  left: 75px;
+  height: 40px;
+}
+
+.input {
+  width: 150px;
+  padding: 10px 0px 10px 40px;
+
+  border: solid 1px #333;
+  transition: all .2s ease-in-out;
+  outline: none;
+  opacity: 0.8;
+}
+
+.container-input svg {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translate(0, -50%);
+}
+
+.input:focus {
+  opacity: 1;
+  width: 500px;
+}
+
+.container-input button {
+
+  width: 100px;
+  height: 45.8px;
+  text-align: center;
+  border: solid 1px #333;
+  transition: all .2s ease-in-out;
+  outline: none;
+  opacity: 0.8;
+  background-color: #57f164;
+  position: relative;
+  right: 4.2px;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 14px 16px;
+  justify-content: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+  
+}
+
+nav ul li a {
+  display: flex;
+  color: #fff;
+  flex-wrap: wrap;
+  flex-direction:row;
+  text-decoration: none;
+}
